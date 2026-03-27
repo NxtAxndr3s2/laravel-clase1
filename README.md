@@ -56,3 +56,33 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Proyecto Laravel Clase 1
+
+## Requisitos
+- PHP
+- Composer
+- Laravel
+
+## Instalación
+
+1. Clonar repositorio:
+git clone https://github.com/TU_USUARIO/laravel-clase1.git
+
+2. Entrar al proyecto:
+cd laravel-clase1
+
+3. Instalar dependencias:
+composer install
+
+4. Configurar entorno:
+cp .env.example .env
+
+5. Generar clave:
+php artisan key:generate
+
+6. Ejecutar migraciones:
+php artisan migrate
+
+7. Iniciar servidor:
+php artisan serve
